@@ -1,0 +1,1 @@
+# BidReady Legal Pages. Public legal notices only. No application source or secrets.
