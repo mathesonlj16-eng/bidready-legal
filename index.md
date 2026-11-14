@@ -1,6 +1,6 @@
 ---
 layout: default
-title: BidReady Intelligence ┬╖ Legal
+title: BidReady Intelligence · Legal
 ---
 # BidReady Intelligence
 
@@ -8,7 +8,7 @@ title: BidReady Intelligence ┬╖ Legal
 
 BidReady is a fictional procurement evidence-review and Rovo demonstration, not a procurement authority or bid-submission service.
 
-**Publisher:** Lucas Matheson ΓÇö Independent Developer
+**Publisher:** Lucas Matheson — Independent Developer
 
 **Contact:** [mathesonlj16+bidready@gmail.com](mailto:mathesonlj16+bidready@gmail.com)
 
