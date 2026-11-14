@@ -4,10 +4,10 @@ title: Privacy Policy
 ---
 
 [Home](./) | [Terms of Use](./terms.html)
-# Privacy Policy ΓÇö BidReady Intelligence
+# Privacy Policy — BidReady Intelligence
 
 **Effective / last updated:** November 13, 2026  
-**Publisher:** Lucas Matheson ΓÇö Independent Developer  
+**Publisher:** Lucas Matheson — Independent Developer  
 **Contact:** mathesonlj16+bidready@gmail.com
 
 BidReady Intelligence ("BidReady") is an Atlassian Forge application that demonstrates source-linked evaluation of procurement eligibility using fictional tenders and evidence. This policy explains how the app handles information when you install or use it.
