@@ -4,10 +4,10 @@ title: Terms of Use
 ---
 
 [Home](./) | [Privacy Policy](./privacy.html)
-# Terms of Use ΓÇö BidReady Intelligence
+# Terms of Use — BidReady Intelligence
 
 **Effective / last updated:** November 13, 2026  
-**Publisher:** Lucas Matheson ΓÇö Independent Developer  
+**Publisher:** Lucas Matheson — Independent Developer  
 **Support:** mathesonlj16+bidready@gmail.com
 
 ## 1. Purpose and audience
