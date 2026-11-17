@@ -6,7 +6,7 @@ title: Privacy Policy
 [Home](./) | [Terms of Use](./terms.html)
 # Privacy Policy — BidReady Intelligence
 
-**Effective / last updated:** November 13, 2026  
+**Effective / last updated:** November 17, 2026  
 **Publisher:** Lucas Matheson — Independent Developer  
 **Contact:** mathesonlj16+bidready@gmail.com
 
@@ -16,7 +16,7 @@ BidReady Intelligence ("BidReady") is an Atlassian Forge application that demons
 
 - **Assessment content you provide:** tender identifiers, source excerpts, qualification requirements, evidence descriptions, document citations, review decisions, dates, and version history.
 - **Atlassian user and site context:** BidReady uses the signed-in user's Atlassian account ID and Jira installation context to determine which assessment can be accessed. The app hashes the account ID to construct a user-specific storage key; the hash is a persistent pseudonymous identifier.
-- **Limited Jira information:** when you ask to preview an internal remediation task, BidReady checks the selected Jira project's metadata, available issue types and your permissions. Some development-only demonstrations can create a fictional Jira Task with your express confirmation.
+- **Limited Jira information:** when you ask to preview a re-check task, BidReady checks the selected Jira project's metadata, available issue types and your permissions. It creates the Task only after you approve its exact text.
 - **Optional Rovo interaction:** when you invoke BidReady Feasibility, the Forge action supplies your current reviewed assessment, citations and a generated invocation receipt to Atlassian Rovo. Forge logs may include the receipt and assessment revision.
 - **Contact inquiries:** if you email support, your email address and the contents of your message are handled by the support mailbox to respond.
 
@@ -24,7 +24,7 @@ Please **do not enter real confidential procurement records, client personal inf
 
 ## Why this information is used
 
-To persist your reviewed assessment and history, enforce isolation between users and Jira installations, display source-linked decisions, show read-only remediation previews, support Rovo explanations at your request, and diagnose technical issues.
+To persist your reviewed assessment and history, enforce isolation between users and Jira installations, display source-linked decisions, create a re-check task in Jira when you approve one, support Rovo explanations at your request, and diagnose technical issues.
 
 BidReady does not use assessment content for marketing or advertising and does not sell it.
 
@@ -36,7 +36,7 @@ Your Jira site may control the region where Forge-hosted persistent data is stor
 
 ## Jira permissions and changes
 
-The app requests `read:jira-work`, `write:jira-work` and `storage:app` in its Forge manifest. The `write:jira-work` consent permission is broad, but **BidReady's current production demo workflow disables Jira issue creation**. Controlled fictional Jira Task creation is only available in specially configured development environments, requires an explicit preview and confirmation, and checks permissions and the target project. This description is of the current code, not a promise that future releases will never change.
+The app requests `read:jira-work`, `write:jira-work` and `storage:app` in its Forge manifest. The `write:jira-work` consent permission is broad, but BidReady uses it only to create one re-check task in Jira, only after a person previews its exact text and ticks a box to approve it, and only in a project where that person has Browse Projects and Create Issues. The Rovo assistant can propose such a task but cannot create it. BidReady never edits, comments on, links or deletes existing Jira issues. This description is of the current code, not a promise that future releases will never change.
 
 ## Retention, deletion and requests
 

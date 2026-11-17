@@ -6,7 +6,7 @@ title: Terms of Use
 [Home](./) | [Privacy Policy](./privacy.html)
 # Terms of Use — BidReady Intelligence
 
-**Effective / last updated:** November 13, 2026  
+**Effective / last updated:** November 17, 2026  
 **Publisher:** Lucas Matheson — Independent Developer  
 **Support:** mathesonlj16+bidready@gmail.com
 
@@ -26,7 +26,7 @@ Only provide fictional demonstration information or material you are authorized 
 
 ## 4. Atlassian permissions and integrations
 
-The application requests Jira read and write scopes and Forge app storage access. The production demo version presently limits Jira remediation to **read-only previews**. A specifically configured development demonstration may offer a separately reviewed, explicit-confirmation fictional Jira Task action; this feature was not designed to take action without the user's approval.
+The application requests Jira read and write scopes and Forge app storage access. The only Jira write is one re-check task in Jira, only after a person previews its exact text and ticks a box to approve it, and only in a project where that person has Browse Projects and Create Issues. The Rovo assistant can propose such a task but cannot create it. This feature was not designed to take action without the user's approval.
 
 If available on your Jira plan, invoking the BidReady Feasibility Rovo agent sends the selected current assessment to the Atlassian-hosted action for an explanatory response. Rovo answers can contain errors; verify them against the app's original citations.
 
